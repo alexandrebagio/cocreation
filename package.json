@@ -1,0 +1,53 @@
+{
+  "name": "cocreation",
+  "private": true,
+  "devDependencies": {
+    "angular-mocks": "^1.7.4",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "2.3.1",
+    "gulp-cache": "^0.2.10",
+    "gulp-connect": "^2.2.0",
+    "gulp-filter": "^2.0.2",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-jshint": "^1.11.1",
+    "gulp-karma": "0.0.4",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-ng-annotate": "^1.0.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rev": "^5.1.0",
+    "gulp-rev-replace": "^0.4.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-uglify": "^1.2.0",
+    "gulp-useref": "^3.0.0",
+    "gulp-util": "^3.0.6",
+    "gulp-version-filename": "^1.0.2",
+    "gulp-watch": "^4.2.4",
+    "jshint-stylish": "^1.0.0",
+    "lazypipe": "^0.2.4",
+    "open": "0.0.5",
+    "rimraf": "^2.4.0",
+    "run-sequence": "^1.1.1",
+    "wiredep": "^2.2.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.3.1",
+    "@uirouter/angularjs": "^1.0.20",
+    "angular": "^1.7.4",
+    "angular-animate": "^1.7.4",
+    "angular-input-masks": "^4.2.1",
+    "angular-loading-bar": "^0.9.0",
+    "angular-locale-pt-br": "^1.3.16",
+    "angular-resource": "^1.7.4",
+    "angular-sanitize": "^1.7.4",
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "jquery-mask-plugin": "^1.14.15",
+    "ng-file-upload": "^12.2.13",
+    "ngstorage": "^0.3.11",
+    "sweetalert": "^1.1.3"
+  }
+}

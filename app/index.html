@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html ng-app="coCreationApp" ng-cloak>
+  <head>
+    <meta charset="utf-8"/>
+    <title> CoCreation SATC </title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <link rel="stylesheet" href="/node_modules/angular-loading-bar/build/loading-bar.css" />
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css" />
+    <link rel="stylesheet" href="/node_modules/sweetalert/dist/sweetalert.css" />
+    <!-- endbuild -->
+
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <!-- endbuild -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+
+  </head>
+  <body>
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div loading></div>
+
+    <!-- Add your site or application content here -->
+    <div ui-view></div>
+
+    <section class="copyright well5">
+      <div class="footer">
+        <span>  
+          <img src="images/satc_logo_horizontal.png" class="logoRodape">
+        </span>
+        <h2>Desenvolvimento TI SATC</h2>
+      </div>
+    </section>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <script src="/node_modules/angular/angular.js"></script>
+    <script src="/node_modules/@uirouter/angularjs/release/angular-ui-router.js"></script>
+    <script src="/node_modules/angular-sanitize/angular-sanitize.js"></script>
+    <script src="/node_modules/angular-resource/angular-resource.js"></script>
+    <script src="/node_modules/angular-locale-pt-br/angular-locale_pt-br.js"></script>
+    <script src="/node_modules/angular-animate/angular-animate.js"></script>
+    <script src="/node_modules/angular-loading-bar/build/loading-bar.js"></script>
+    <script src="/node_modules/ngstorage/ngStorage.js"></script>
+    <script src="/node_modules/ng-file-upload/dist/ng-file-upload.js"></script>
+    <script src="/node_modules/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="/node_modules/angular-input-masks/releases/angular-input-masks-standalone.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="/node_modules/jquery-mask-plugin/dist/jquery.mask.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/login.js"></script>
+    <script src="scripts/controllers/home.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
